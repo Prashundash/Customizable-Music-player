@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.jpg" alt="Spotify" /></li>
+        <li>
+          <b>Home</b>
+        </li>
+        <li>
+          <b>About</b>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="songlist">
+        <h1>
+          <b>🤟Bangers🤟</b>
+        </h1>
+        <div class="songItemContainer">
+          <div class="songItem">
+            <img src="cover.jpg" alt="1" />
+            <span class="songName"><b>Pyaar hota kayi baar hai </b></span>
+            <span class="songListplay"
+              ><span class="timestamp"
+                >04:20<i
+                  id="0"
+                  class="fa-solid fa-2x songItemPlay fa-circle-play"
+                ></i
+              ></span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="cover.jpg" alt="1" />
+            <span class="songName"><b>Ole Ole 2.0</b></span>
+            <span class="songListplay"
+              ><span class="timestamp"
+                >04:20<i
+                  id="1"
+                  class="fa-solid fa-2x songItemPlay fa-circle-play"
+                ></i
+              ></span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="cover.jpg" alt="1" />
+            <span class="songName"><b>Pain</b></span>
+            <span class="songListplay"
+              ><span class="timestamp"
+                >04:20
+                <i id="2" class="fa-solid fa-2x songItemPlay fa-circle-play"></i
+              ></span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="cover.jpg" alt="1" />
+            <span class="songName"><b>Pain</b></span>
+            <span class="songListplay"
+              ><span class="timestamp"
+                >04:20
+                <i id="3" class="fa-solid fa-2x songItemPlay fa-circle-play"></i
+              ></span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="cover.jpg" alt="1" />
+            <span class="songName"><b>Baller-Shubh</b></span>
+            <span class="songListplay"
+              ><span class="timestamp"
+                >04:20
+                <i id="4" class="fa-solid fa-2x songItemPlay fa-circle-play"></i
+              ></span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        value="0"
+        max="100"
+      />
+      <div class="icons">
+        <!-- fontawesome icons -->
+        <i class="fa-solid fa-3x previous fa-backward"></i>
+        <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+        <i class="fa-solid fa-3x next fa-forward"></i>
+      </div>
+      <div class="songInfo">
+        <img src="https://tenor.com/bt2yW.gif" width="42px" alt="" />
+        <span id="masterSongName"><b>Pyaar hota kai baar hai</b></span>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/87b23b35d7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
